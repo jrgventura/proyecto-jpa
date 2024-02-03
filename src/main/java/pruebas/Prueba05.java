@@ -16,12 +16,6 @@ public class Prueba05 {
 	public static void main(String[] args) {
 		
 		RolDao dao = new RolDaoImpl();
-			
-		// Rol rol = dao.find(9);
-		
-		//rol.setIdrol(1);
-		//rol.setRolName("asistente");
-		//rol.setRolStatus(1);
 		
 		dao.delete(8);
 		
